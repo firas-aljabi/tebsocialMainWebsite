@@ -1,0 +1,50 @@
+export default function Content2_3() {
+    return (
+        <>
+            <section id="content-2" className="wide-60 content-section division">
+                <div className="container">
+                    <div className="row d-flex align-items-center">
+                        <div className="col-md-6">
+                            <div className="img-block wow fadeInUp" data-wow-delay="0.3s">
+                                <img className="img-fluid" src="/images/image-05.png" alt="content-image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="txt-block pc-30 wow fadeInUp" data-wow-delay="0.1s">
+                                <span className="section-id primary-color">Beauty of simplicity</span>
+                                <h3 className="h3-md">We are making design better for everyone</h3>
+                                <div className="box-list m-top-15">
+                                    <div className="box-list-icon"><i className="fas fa-genderless" /></div>
+                                    <p>Fringilla risus nec, luctus mauris  orci auctor purus euismod pretium purus
+                                        pretium ligula rutrum tempor sapien
+                                    </p>
+                                </div>
+                                <div className="box-list m-top-15">
+                                    <div className="box-list-icon"><i className="fas fa-genderless" /></div>
+                                    <p>Sapien gravida donec pretium ipsum  porta justo integer at odio velna vitae auctor
+                                        integer congue magna purus pretium ligula rutrum luctus ultrice aliquam a augue
+                                        suscipit sapien
+                                    </p>
+                                </div>
+                                <div className="box-list">
+                                    <div className="box-list-icon"><i className="fas fa-genderless" /></div>
+                                    <p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien
+                                        undo pretium purus ligula rutrum tempor
+                                    </p>
+                                </div>
+                                <div className="tools-list mt-25">
+                                    <h5 className="h5-xs">Technologies We Use:</h5>
+                                    <i className="fab fa-html5" />
+                                    <i className="fab fa-css3-alt" />
+                                    <i className="fab fa-js-square" />
+                                    <i className="fab fa-php" />
+                                    <i className="fab fa-mailchimp" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
